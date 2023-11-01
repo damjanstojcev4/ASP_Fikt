@@ -1,0 +1,19 @@
+Overview of Hash Tables:
+
+Key-Value Pairs: A hash table is a collection of key-value pairs.
+The key is used to look up the associated value quickly.
+
+Hash Function: A hash table uses a hash function to transform a key into an index within an array.
+This process is deterministic, meaning that the same key will always produce the same index.
+
+Buckets: The array in a hash table is often called a "bucket array."
+Each index in the bucket array is called a "bucket."
+A bucket can contain multiple key-value pairs if there are hash collisions (two keys that produce the same index).
+
+Handling Collisions: Hash collisions occur when two different keys produce the same index.
+Hash tables use various techniques to resolve collisions,
+such as chaining (each bucket contains a linked list of key-value pairs) or open addressing (search for the next available slot in the array).
+
+Efficiency: Hash tables provide fast access to values using their keys. On average,
+the time complexity for inserting, retrieving, or deleting a key-value pair is O(1).
+However, in the worst case (with many collisions), these operations can become O(n), where n is the number of elements.
