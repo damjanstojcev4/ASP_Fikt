@@ -1,0 +1,24 @@
+Algorithm Overview:
+Binary search takes advantage of the fact that the list or array must be sorted.
+It repeatedly divides the search interval in half until the target element is found or it's clear that the element is not in the list.
+
+Start with the entire sorted list and define two pointers,
+one at the beginning and one at the end.
+
+Calculate the middle index between the two pointers.
+
+Compare the middle element with the target element.
+
+ - If the middle element is equal to the target, the search is successful, and the algorithm returns the index of the target element.
+ - If the middle element is greater than the target, it means the target must be in the left half of the array.
+ The search interval is updated accordingly, and the process is repeated in the left half.
+ - If the middle element is less than the target, the target must be in the right half of the array.
+ The search interval is updated, and the process is repeated in the right half.
+Repeat the process until the target is found or the search interval becomes empty, indicating that the target is not in the list.
+
+Key Points:
+
+- Binary search is a highly efficient algorithm, with a time complexity of O(log n) in the worst case,
+where n is the number of elements in the sorted list.
+- It is important that the list is sorted for binary search to work correctly.
+- Binary search can be much faster than linear search, especially for large datasets.
