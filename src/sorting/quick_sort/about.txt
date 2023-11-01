@@ -1,0 +1,22 @@
+Algorithm Overview:
+Quick sort is also a divide-and-conquer algorithm, like merge sort, but it follows a different strategy.
+The main idea behind quick sort is to select a "pivot" element from the array and partition the other
+elements into two subarrays: those less than the pivot and those greater than the pivot.
+This process is repeated recursively on the two subarrays.
+
+Pivot Selection: Choose a pivot element from the array. The choice of the pivot can vary,
+but a common approach is to select the last element, the first element, or a random element.
+
+Partitioning: Rearrange the elements in the array so that all elements less than the pivot come before the pivot,
+and all elements greater than the pivot come after it. The pivot itself is now in its final sorted position.
+This is achieved by iterating through the array from both ends, swapping elements as needed.
+
+Recursion: Recursively apply the quick sort algorithm to the subarrays created on the left and right of the pivot.
+This process continues until the entire array is sorted.
+
+Key Points:
+
+- Quick sort is an in-place sorting algorithm, meaning it doesn't require additional memory for temporary storage like merge sort.
+- It is not a stable sorting algorithm, meaning it may change the relative order of equal elements.
+- Quick sort has an average-case time complexity of O(n log n) and is often faster in practice than merge sort for small to medium-sized datasets.
+- However, the worst-case time complexity can be O(n^2) if poorly chosen pivots, making it less suitable for some scenarios.
