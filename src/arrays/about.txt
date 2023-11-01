@@ -1,0 +1,11 @@
+Overview of Arrays:
+
+Homogeneous Data Structure: An array is a homogeneous data structure, which means that all elements in the array are of the same data type. For example, you can have an array of integers, an array of strings, or an array of custom objects, but not a mix of different data types within the same array.
+
+Indexed Elements: Elements in an array are stored at specific positions known as indices. The indices start at 0 for the first element, 1 for the second element, and so on. You can access elements by their indices.
+
+Fixed Size: In many programming languages, including Java, arrays have a fixed size, which is determined when the array is created. Once the size is set, it cannot be changed. If you need a dynamic data structure that can grow or shrink, you might consider using other data structures like ArrayList in Java.
+
+Contiguous Memory: Elements in an array are stored in contiguous memory locations, which allows for efficient access based on indices.
+
+Common Array Operations: Typical array operations include reading elements by index, modifying elements, finding the length of the array, and looping through the elements.
