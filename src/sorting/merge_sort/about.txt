@@ -1,0 +1,23 @@
+Algorithm Overview:
+Merge sort uses a divide-and-conquer strategy to sort a list or array of elements.
+It can be broken down into three main steps: divide, conquer, and merge.
+
+Divide: The unsorted list is divided into two equal sublists.
+This division continues recursively until each sublist contains only one element.
+This step effectively breaks the problem into smaller, more manageable parts.
+
+Conquer: In this step, each of the smaller sublists is sorted.
+This is typically done by applying the merge sort algorithm recursively to these sublists.
+Sorting the sublists is the "conquering" part of the algorithm.
+
+Merge: The final step involves merging the sorted sublists back together to produce a single sorted list.
+This is where the "merge" in merge sort takes place.
+During the merge process, elements from the two sublists are compared and merged in sorted order, creating a single, sorted output.
+
+Key Points:
+
+- Merge sort is a stable sorting algorithm, meaning it maintains the relative order of equal elements.
+- It is an out-of-place sorting algorithm, which means it requires additional memory to store the temporary sublists during the merge phase.
+- Merge sort has a time complexity of O(n log n), which makes it efficient for large datasets.
+- Its main advantage is its predictable and consistent performance, making it a good choice for sorting in various applications.
+- Merge sort is widely used in external sorting, where data does not fit entirely in memory and must be read from and written to disk.
