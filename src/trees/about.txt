@@ -1,0 +1,21 @@
+Overview of Trees:
+
+Nodes: Each element in a tree is called a node. Nodes have attributes,
+which may include data and references to other nodes (child nodes).
+
+Root: The topmost node in a tree is called the root.
+
+Parent and Child Nodes: Nodes in a tree can be classified as parents
+(nodes with children) and children (nodes connected to a parent). The edge connecting a parent to its child is called a branch.
+
+Leaves: Nodes with no children are called leaves.
+
+Levels: The root is at level 0, and each level below the root increases by 1.
+
+Height: The height of a tree is the length of the longest path from the root to a leaf.
+
+Types of Trees:
+
+Binary Tree: Each node has at most two children.
+Binary Search Tree (BST): A binary tree with the property that the left child's value is less than the parent's value,
+and the right child's value is greater.
