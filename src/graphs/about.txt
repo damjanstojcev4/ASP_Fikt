@@ -1,0 +1,20 @@
+Overview of Graphs:
+
+Vertices: In a graph, vertices represent entities or points, such as cities in a map or nodes in a network.
+
+Edges: Edges represent connections or relationships between vertices.
+They can be directed (one-way) or undirected (two-way).
+
+Types of Graphs:
+
+ - Directed Graph (Digraph): Edges have a direction, going from one vertex to another.
+ - Undirected Graph: Edges have no direction, connecting vertices in both directions.
+ - Weighted Graph: Edges have associated weights or costs.
+ - Cyclic Graph: Contains cycles (loops).
+ - Acyclic Graph: Does not contain cycles.
+ - Connected Graph: All vertices are reachable from any other vertex.
+ - Disconnected Graph: Contains isolated components.
+
+Graph Representation:
+There are various ways to represent graphs, including adjacency matrix, adjacency list, and edge list.
+The choice of representation depends on the specific problem and the efficiency of operations you need.
