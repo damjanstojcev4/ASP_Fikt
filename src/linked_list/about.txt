@@ -1,0 +1,16 @@
+Overview of Linked Lists:
+
+Nodes: A linked list is composed of nodes, each containing data and a reference to the next node in the sequence.
+The first node is called the "head," and the last node typically has a reference pointing to null.
+
+Singly Linked List: In a singly linked list, each node has a reference to the next node.
+Traversing a singly linked list is possible in only one direction, from the head to the end.
+
+Doubly Linked List: In a doubly linked list, each node has references to both the next node and the previous node.
+This allows for bidirectional traversal.
+
+Insertion and Deletion: Adding or removing elements from a linked list is efficient because it involves changing references.
+It is particularly useful when you need to insert or delete elements in the middle of the list.
+
+Dynamic Size: Linked lists can grow or shrink dynamically,
+making them suitable for situations where the size of the data structure is not known in advance.
